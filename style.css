@@ -1,0 +1,55 @@
+body{
+    background-color: #000;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.informacoes-faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 0 2px 0;
+    font-size: 1.5rem;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#anterior, #proximo {
+    font-size: 3rem;
+}
+
+#anterior:hover, #proximo:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+#play-pause {
+    font-size: 3.5rem;
+}
+
+#play-pause:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
